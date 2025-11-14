@@ -9,10 +9,13 @@
 sudo apt update
 sudo apt upgrade
 
+
+# clonage du depot github 
+
+
 # outils
 sudo apt install curl
 sudo apt install git
-# clonage du depot github 
 
 # xfce
 sudo apt install --no-install-recommends xfce4 lightdm xorg
