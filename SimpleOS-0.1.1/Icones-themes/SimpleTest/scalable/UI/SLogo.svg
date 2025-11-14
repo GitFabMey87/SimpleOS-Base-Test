@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <!-- Cercle blanc (contour), fond transparent -->
+  <circle cx="128" cy="128" r="100" fill="none" stroke="#ffffff" stroke-width="12"/>
+
+  <!-- S stylisé blanc, gras et légèrement penché -->
+  <g transform="translate(128,128) skewX(-10) translate(-128,-128)">
+    <path d="
+      M 96 64
+      C 144 40 180 64 180 92
+      C 180 116 156 132 128 144
+      C 104 154 76 170 76 194
+      C 76 220 116 224 156 210"
+      fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
