@@ -51,9 +51,9 @@ sudo apt install gthumb
 sudo apt install thunar-archive-plugin
 
 # installe eggs
-apt update && apt install -y wget
-wget https://sourceforge.net/projects/penguins-eggs/files/DEB/penguins-eggs_25.7.30-1_amd64.deb
-apt install -y ./penguins-eggs_25.7.30-1_amd64.deb
+#apt update && apt install -y wget
+#wget https://sourceforge.net/projects/penguins-eggs/files/DEB/penguins-eggs_25.7.30-1_amd64.deb
+#apt install -y ./penguins-eggs_25.7.30-1_amd64.deb
 
 # nettoyage
 cd
@@ -63,7 +63,7 @@ sudo apt clean
 
 # modification de xfce
 # themes, icones
-# sudo cp -r Graphiques/Icones/SimpleOS-Test1 /usr/share/icons/
+# sudo cp -r /home/ostesteur/SimpleOS-Base-Test/Graphiques/Icones/SimpleOS-Test1 /usr/share/icons/
 # sudo gtk-update-icon-cache -f -t /usr/share/icons/SimpleOs-0.1.1
 
 # modiation et config de logiciels
