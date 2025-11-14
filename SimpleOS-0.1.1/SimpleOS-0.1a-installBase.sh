@@ -9,16 +9,17 @@
 sudo apt update
 sudo apt upgrade
 
-
-# clonage du depot github 
-
-
 # outils
 sudo apt install curl
 sudo apt install git
 
+
+# clonage du depot github 
+git clone https://github.com/GitFabMey87/SimpleOS-Base-Test.git
+
 # xfce
 sudo apt install --no-install-recommends xfce4 lightdm xorg
+sudo apt install mousepad
 sudo dpkg-reconfigure lightdm
 
 # brave
