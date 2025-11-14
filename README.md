@@ -1,3 +1,7 @@
+
+NOTHING USEABLE YET. YOU CAN DOWNLOAD , but nothing interesting.
+
+
 Started in september 2025 has a hobby, i would like to make an operating system, with minimum software,
   but all used in 2025 and a pretty simple but functionnal interface.  
   
