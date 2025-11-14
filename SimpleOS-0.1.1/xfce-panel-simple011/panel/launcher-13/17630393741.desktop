@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=musique
+Comment=
+Exec=quodlibet
+Icon=/home/fabrice/.icons/SimpleOs-0.1.1/hicolor/scalable/apps/music.svg
+Path=
+Terminal=false
+StartupNotify=false

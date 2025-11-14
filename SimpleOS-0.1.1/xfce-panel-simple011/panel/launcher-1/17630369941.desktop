@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=RSS
+Comment=
+Exec=rss
+Icon=/home/fabrice/.icons/SimpleOs-0.1.1/hicolor/scalable/apps/rss.svg
+Path=
+Terminal=false
+StartupNotify=false

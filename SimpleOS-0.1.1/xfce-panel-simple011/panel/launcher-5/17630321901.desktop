@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=geary
+Icon=/home/fabrice/.icons/SimpleOs-0.1.1/hicolor/scalable/apps/mail.svg
+StartupNotify=true
+Terminal=false
+Categories=Network;X-XFCE;X-Xfce-Toplevel;
+Keywords[fr]=email;mail;inbox;message;communication;courriel;boîte de réception;e-mail;courrier électronique;
+Keywords=email;mail;inbox;message;communication;
+OnlyShowIn=XFCE;
+X-XFCE-MimeType=x-scheme-handler/mailto;
+X-AppStream-Ignore=True
+Name[fr]=Mail
+Name=Mail Reader
+Comment[fr]=Consulter ses courriels
+Comment=Read your email
+X-XFCE-Source=file:///usr/share/applications/xfce4-mail-reader.desktop
+Path=

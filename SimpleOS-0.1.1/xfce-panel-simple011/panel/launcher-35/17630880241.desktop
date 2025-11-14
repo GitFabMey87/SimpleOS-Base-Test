@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IA
+Comment=
+Exec=ia
+Icon=/home/fabrice/DEV/MonpanelIcones/brain.svg
+Path=
+Terminal=false
+StartupNotify=false
