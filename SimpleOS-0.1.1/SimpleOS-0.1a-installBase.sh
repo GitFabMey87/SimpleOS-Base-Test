@@ -63,8 +63,10 @@ sudo apt clean
 
 # modification de xfce
 # themes, icones
-sudo cp -r Graphiques/Icones/SimpleOS-Test1 /usr/share/icons/
-sudo gtk-update-icon-cache -f -t /usr/share/icons/SimpleOs-0.1.1
+# sudo cp -r Graphiques/Icones/SimpleOS-Test1 /usr/share/icons/
+# sudo gtk-update-icon-cache -f -t /usr/share/icons/SimpleOs-0.1.1
+
+# modiation et config de logiciels
 
 
 # affiche les 20 plus gros deb installes
