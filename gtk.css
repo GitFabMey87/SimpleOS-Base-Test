@@ -1,0 +1,55 @@
+/* MonPanelNoir - Version finale Debian 13 / XFCE 4.20 - 20 novembre 2025 */
+
+.xfce4-panel.background,
+#XfcePanelWindow {
+    background-color: #000000 !important;
+    border-radius: 0 0 26px 26px !important;   /* coins bas arrondis */
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;   /* important : visible pour que les cercles remontent */
+    position: relative;
+    z-index: 9999;
+}
+
+/* Quart de cercle qui mord en haut gauche + droite */
+.xfce4-panel.background::before,
+.xfce4-panel.background::after,
+#XfcePanelWindow::before,
+#XfcePanelWindow::after {
+    content: "";
+    position: absolute;
+    top: -60px;               /* remonte plus haut pour bien mordre */
+    width: 120px;             /* diamètre du quart de cercle - ajuste si tu veux plus/moins fort */
+    height: 120px;
+    background: #000000;
+    border-radius: 50%;
+    z-index: 9999 !important;
+    pointer-events: none;     /* ne bloque pas les clics */
+}
+.xfce4-panel.background::before,
+#XfcePanelWindow::before { left: -60px; }
+.xfce4-panel.background::after,
+#XfcePanelWindow::after { right: -60px; }
+
+/* Fond noir opaque + suppression totale des dégradés/transparences sur tous les plugins */
+.xfce4-panel,
+.xfce4-panel * {
+    background-color: #000000 !important;
+    background-image: none !important;
+    background: #000000 !important;
+    border: none !important;
+    box-shadow: none !important;
+    min-height: 0 !important;
+    padding: 0 4px !important;
+    margin: 0 !important;
+}
+
+/* Tes 6 icônes lanceur restent transparentes */
+launcher button,
+launcher button * {
+    background: transparent !important;
+    padding: 0 12px !important;
+}
